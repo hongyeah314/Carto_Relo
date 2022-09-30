@@ -76,7 +76,7 @@ bool CompressedPointCloud::ConstIterator::operator!=(
   return remaining_points_ != it.remaining_points_;
 }
 
-void CompressedPointCloud::ConstIterator::ReadNextPoint() {
+void CompressedPointCloud::ConstIte/snap/clion/206/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/206/bin/ninja/linux/ninja -G Ninja -S /home/zhanglei/Cart/install/cartographer_detailed_comments_rator::ReadNextPoint() {
   if (remaining_points_in_current_block_ == 0) {
     remaining_points_in_current_block_ = *input_++;
     for (int i = 0; i < 3; ++i) {
